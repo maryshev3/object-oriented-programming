@@ -1,0 +1,23 @@
+title: "Object‑oriented programming course"
+baseurl: "/object-oriented-programming"
+url: "https://maryshev3.github.io"
+
+# Jekyll
+markdown: kramdown
+highlighter: rouge
+
+# Тема (например, just-the-docs)
+theme: just-the-docs
+
+# Локали
+defaults:
+  - scope:
+      path: "_pages/ru"
+    values:
+      lang: "ru"
+      layout: "default"
+  - scope:
+      path: "_pages/en"
+    values:
+      lang: "en"
+      layout: "default"
