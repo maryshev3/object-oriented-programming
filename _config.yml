@@ -6,20 +6,24 @@ url: "https://maryshev3.github.io"
 markdown: kramdown
 highlighter: rouge
 
-# Тема
-remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-remote-theme
+# Тема (простая, встроенная)
+theme: jekyll-theme-cayman
 
-# Локали
+# Коллекция страниц
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Дефолты для ru/en
 defaults:
   - scope:
       path: "_pages/ru"
     values:
+      layout: default
       lang: "ru"
-      layout: "default"
   - scope:
       path: "_pages/en"
     values:
+      layout: default
       lang: "en"
-      layout: "default"

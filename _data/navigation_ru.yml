@@ -1,2 +1,4 @@
-- title: Введение в систему Git
-  url: /pages/ru/git-introduce
+- title: ru
+  children:
+    - title: Введение в систему Git
+      url: /pages/ru/git-introduce

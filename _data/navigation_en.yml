@@ -1,10 +1,4 @@
-- title: Introduction
-  url: /pages/en/intro
-- title: Classes and objects
-  url: /pages/en/classes
-- title: Inheritance
-  url: /pages/en/inheritance
-- title: Polymorphism
-  url: /pages/en/polymorphism
-- title: Git for the course
-  url: /pages/en/git-basics
+- title: en
+  children:
+    - title: Introduce to Git
+      url: /pages/en/git-introduce
