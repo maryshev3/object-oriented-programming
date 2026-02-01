@@ -6,8 +6,10 @@ url: "https://maryshev3.github.io"
 markdown: kramdown
 highlighter: rouge
 
-# Тема (например, just-the-docs)
-theme: just-the-docs
+# Тема
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
 
 # Локали
 defaults:
