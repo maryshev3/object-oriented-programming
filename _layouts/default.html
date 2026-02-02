@@ -10,28 +10,7 @@
     {% include navigation.html %}
     
     <main class="content">
-        <div class="language-switcher">
-            {% if page.lang == 'ru' %}
-                <a href="{{ page.url | replace: '/ru/', '/en/' }}">🇬🇧 English</a>
-            {% else %}
-                <a href="{{ page.url | replace: '/en/', '/ru/' }}">🇷🇺 Русский</a>
-            {% endif %}
-        </div>
-        
         {{ content }}
     </main>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const currentPath = window.location.pathname;
-            const links = document.querySelectorAll('.nav-list a');
-            
-            links.forEach(link => {
-                if (link.getAttribute('href') === currentPath) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
 </body>
 </html>
