@@ -118,29 +118,29 @@ GitFlow - наиболее популярный подход к управлен
 
 - Перейдём в список веток (Рисунок 2);
 
-![Переход к списку веток](/assets/images/git-intro/2.png)
+![Переход к списку веток]({{ '/assets/images/git-intro/2.png' | relative_url }})
 <p style="text-align: center;">Рисунок 2 – Переход к списку веток</p>
 
 - Нажмём на ветку «main», от которой хотим создать ветку (Рисунок 3);
 
-![Переход к созданию ветки](/assets/images/git-intro/3.png)
+![Переход к созданию ветки]({{ '/assets/images/git-intro/3.png' | relative_url }})
 <p style="text-align: center;">Рисунок 3 – Переход к созданию ветки</p>
 
 - Введём название для ветки и подтвердим создание, нажав на кнопку «Create» (Рисунок 4).
 
-![Ввод имени для ветки](/assets/images/git-intro/4.png)
+![Ввод имени для ветки]({{ '/assets/images/git-intro/4.png' | relative_url }})
 <p style="text-align: center;">Рисунок 4 – Ввод имени для ветки</p>
 
 Теперь добавим README файл в интересующий нас проект решения:
 
 - Нажмём правой кнопкой мыши на нужный проект, затем перейдём по вкладкам «Add» -> «File» (Рисунок 5);
 
-![Добавление файла](/assets/images/git-intro/5.png)
+![Добавление файла]({{ '/assets/images/git-intro/5.png' | relative_url }})
 <p style="text-align: center;">Рисунок 5 – Добавление файла</p>
 
 - Введём название для файла (Рисунок 6).
 
-![Ввод названия для файла](/assets/images/git-intro/6.png)
+![Ввод названия для файла]({{ '/assets/images/git-intro/6.png' | relative_url }})
 <p style="text-align: center;">Рисунок 6 – Ввод названия для файла</p>
 
 Далее, после создания файла, его необходимо заполнить. В тексте этого файла можно выделять заголовки, вставлять фрагменты кода и т.д. Для заполнения файла наиболее оптимально использовать GPT-модели. Ниже приведён пример запроса:
@@ -165,49 +165,49 @@ WARNING: Class is not implemented now
 
 Все сделанные изменения отображаются во вкладке «Commit» (Рисунок 7).
 
-![Список изменений](/assets/images/git-intro/7.png)
+![Список изменений]({{ '/assets/images/git-intro/7.png' | relative_url }})
 <p style="text-align: center;">Рисунок 7 – Список изменений</p>
 
 Видно, что есть группы «Staged» и «Unstaged». В группе «Staged» содержатся изменения, которые попадут в будущий коммит. Те изменения, которые отображаются в группе «Unstaged», в коммит не попадут. Для того, чтобы изменения из «Unstaged» переместились в «Staged», необходимо нажать на значок плюс у нужной папки или файла (Рисунок 8).
 
-![Фиксация изменений](/assets/images/git-intro/8.png)
+![Фиксация изменений]({{ '/assets/images/git-intro/8.png' | relative_url }})
 <p style="text-align: center;">Рисунок 8 – Фиксация изменений</p>
 
 После того, как нужные изменения внесены и выбраны, их необходимо зафиксировать, создав коммит. Для этого необходимо сначала ввести текст коммита, а затем нажать на кнопку «Commit and Push». Текст коммита стоит делать кратким, отражающим суть внесённых изменений (Рисунок 9).
 
-![Создание коммита](/assets/images/git-intro/9.png)
+![Создание коммита]({{ '/assets/images/git-intro/9.png' | relative_url }})
 <p style="text-align: center;">Рисунок 9 – Создание коммита</p>
 
 После этого, в репозитории GitHub появится ещё одна ветка «feature/add-readme-file» (Рисунок 10).
 
-![Ветки в GitHub после фиксации изменений](/assets/images/git-intro/10.png)
+![Ветки в GitHub после фиксации изменений]({{ '/assets/images/git-intro/10.png' | relative_url }})
 <p style="text-align: center;">Рисунок 10 – Ветки в GitHub после фиксации изменений</p>
 
 При этом, в ветке «main» файла README.MD не будет, а в ветке «feature/add-readme-file» - будет (Рисунок 11).
 
-![Наличие файла в разных ветках](/assets/images/git-intro/11.png)
+![Наличие файла в разных ветках]({{ '/assets/images/git-intro/11.png' | relative_url }})
 <p style="text-align: center;">Рисунок 11 – Наличие файла в разных ветках</p>
 
 Чтобы изменения, сделанные в ветке «feature/add-readme-file» попали в основную ветку «main», необходимо создать «Pull Request» на слияние веток. Для этого необходимо:
 
 - Перейти на вкладку «Pull requests», после чего нажать на кнопку «New pull request» (Рисунок 12);
 
-![Создание Pull Request](/assets/images/git-intro/12.png)
+![Создание Pull Request]({{ '/assets/images/git-intro/12.png' | relative_url }})
 <p style="text-align: center;">Рисунок 12 – Создание Pull Request</p>
 
 - Выбрать ветки для слияния. В значении base указывается ветка, в которую сливаются изменения, а в compare - из какой ветки сливаются изменения. После выбора веток необходимо нажать на кнопку «Create pull request» (Рисунок 13);
 
-![Выбор веток для слияния](/assets/images/git-intro/13.png)
+![Выбор веток для слияния]({{ '/assets/images/git-intro/13.png' | relative_url }})
 <p style="text-align: center;">Рисунок 13 – Выбор веток для слияния</p>
 
 - После создания «Pull request», перед подтверждением слияния веток, можно посмотреть сделанные изменения на вкладке «Files changed». Если внесённые изменения устраивают, то для слияния ветки необходимо нажать на кнопку «Merge pull request» (Рисунок 14);
 
-![Слияние веток](/assets/images/git-intro/14.png)
+![Слияние веток]({{ '/assets/images/git-intro/14.png' | relative_url }})
 <p style="text-align: center;">Рисунок 14 – Слияние веток</p>
 
 - После слияния веток будет предложение удалить «feature/add-readme-file» ветку. Хранить её больше нет смысла, т.к. изменения из этой ветки уже попали в основную, поэтому можно безопасно удалить, нажав на кнопку «Delete branch» (Рисунок 15).
 
-![Удаление ветки после слияния](/assets/images/git-intro/15.png)
+![Удаление ветки после слияния]({{ '/assets/images/git-intro/15.png' | relative_url }})
 <p style="text-align: center;">Рисунок 15 – Удаление ветки после слияния</p>
 
 Теперь файл «README.MD» содержится в основной ветке main.
