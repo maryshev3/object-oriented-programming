@@ -103,3 +103,7 @@ body {
     display: block;
     margin-bottom: 10px;
 }
+
+p {
+    text-indent: 1.25cm;
+}
