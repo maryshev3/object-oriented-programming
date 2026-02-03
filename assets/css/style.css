@@ -89,7 +89,7 @@ body {
     height: auto;
 }
 
-#Стиль для заданий
+/*Стиль для заданий*/
 .task-box {
     border: 4.5pt solid red;
     padding: 15px;
