@@ -104,26 +104,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* Отступ первой строки для обычных параграфов */
-.content p {
+p {
     text-indent: 1.25cm;
-    margin-bottom: 1em;
-}
-
-/* Исключения - без отступа */
-.content p.no-indent,
-.content p:first-child,
-.content h1 + p,
-.content h2 + p,
-.content h3 + p,
-.content h4 + p,
-.content h5 + p,
-.content h6 + p,
-.content li > p {
-    text-indent: 0;
-}
-
-/* Для цитат можно сделать больше */
-.content blockquote p {
-    text-indent: 2cm;
 }
