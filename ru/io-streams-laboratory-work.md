@@ -400,7 +400,7 @@ int main()
 
 ```
 
-Полный текст программы приведён GitHub по [ссылке](https://github.com/maryshev3/BankAccountApplication/tree/main).
+Полный текст программы приведён на GitHub по [ссылке](https://github.com/maryshev3/BankAccountApplication/tree/main).
 
 ## Задание для самостоятельного решения
 
