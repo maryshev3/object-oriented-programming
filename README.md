@@ -1,13 +1,6 @@
-# Объектно-ориентированное программирование (RU)
+# Объектно-ориентированное программирование
 Данный курс посвящён основам объектно-ориентированного программирования на C++ и представляет из себя набор лекций и практических заданий.
 
 Также в курсе содержатся основные сведения по работе с системой версионирования Git.
 
-Для того, чтобы перейти к курсу, нажми на ссылку: COURSE_IS_NOT_IMPLEMENTED_FOR_RU
-
-# Object-oriented-programming (EN)
-This course covers the fundamentals of object-oriented programming in C++ and consists of lectures and practical exercises.
-
-The course also covers basic information on working with the Git version control system.
-
-To access the course, click the link: COURSE_IS_NOT_IMPLEMENTED_FOR_EN
+Для того, чтобы перейти к курсу, нажми на ссылку: [Тема 1. Введение в Git](https://maryshev3.github.io/object-oriented-programming/ru/git-intro)
