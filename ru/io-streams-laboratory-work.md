@@ -32,7 +32,7 @@ lang: ru
 
 Начнём с реализации класса BankAccount. Классы, отвечающие за реализацию бизнес логики будем располагать в папке Models. Для этого, создадим её. В дереве с файлами в правой части интерфейса Visual Studio изменим режим отображения файлов, нажав на соответствующую кнопку (Рисунок 1).
 
-![Создание нового репозитория]({{ '/assets/images/io-streams-laboratory-work/1.png' | relative_url }}){: .center-img }
+![Отображение всех файлов]({{ '/assets/images/io-streams-laboratory-work/1.png' | relative_url }}){: .center-img }
 <p style="text-align: center;">Рисунок 1 – Отображение всех файлов</p>
 
 На созданный проект нажмём правой кнопкой мыши, а затем в меню ![Кнопка Add]({{ '/assets/images/io-streams-laboratory-work/1_1.png' | relative_url }}) нажмём на ![Кнопка New Folder]({{ '/assets/images/io-streams-laboratory-work/1_2.png' | relative_url }}). В дереве файлов появится новая папка ![Папка NewFolder1]({{ '/assets/images/io-streams-laboratory-work/1_3.png' | relative_url }}), в которую можем ввести нужное название ![Папка Models]({{ '/assets/images/io-streams-laboratory-work/1_4.png' | relative_url }}).
