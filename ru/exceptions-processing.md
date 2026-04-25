@@ -295,6 +295,6 @@ int main() {
 
 [← Назад к оглавлению](/)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Следующая тема: Полиморфизм →](/ru/polymorphism)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Предыдущая тема: Наследование →](/ru/inheritance)

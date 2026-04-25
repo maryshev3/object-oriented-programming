@@ -269,6 +269,6 @@ int main() {
 
 [← Назад к оглавлению](/)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Следующее задание: Кейс HomeTech →](/ru/case-hometech)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Предыдущая тема: Обработка ошибок →](/ru/exceptions-processing)
