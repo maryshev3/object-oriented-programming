@@ -228,3 +228,9 @@ private:
     bool m_is_valid_amount(double amount) const;
 };
 ```
+
+[← Назад к оглавлению](/)
+
+[Следующая тема: Структура кода →](/ru/code-structure)
+
+[Предыдущее задание: Кейс CoffeeBucks →](/ru/case-coffeebucks)

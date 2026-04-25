@@ -386,3 +386,9 @@ std::istream& operator>>(std::istream& is, Person& person) {
     return is;
 }
 ```
+
+[← Назад к оглавлению](/)
+
+[Следующая лабораторная работа: Ввод/вывод в C++. Библиотеки ввода/вывода →](/ru/io-streams-laboratory-work)
+
+[Предыдущее задание: Кейс HomeTech →](/ru/case-hometech)

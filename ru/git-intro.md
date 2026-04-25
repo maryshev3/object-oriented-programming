@@ -216,4 +216,4 @@ WARNING: Class is not implemented now
 
 [← Назад к оглавлению]({{'/' | relative_url}})
 
-[Следующая тема: Введение в ООП. Инкапсуляция →]({{'/ru/oop-encapsulation' | relative_url}})
+[Следующая тема: Введение в ООП →]({{'/ru/oop-intro' | relative_url}})

@@ -234,6 +234,6 @@ class Car {
 
 [← Назад к оглавлению](/)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Следующая тема: Обработка ошибок →](/ru/exceptions-processing)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Предыдущая тема: Структура кода →](/ru/code-structure)

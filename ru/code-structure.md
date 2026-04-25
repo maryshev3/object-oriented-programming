@@ -141,6 +141,6 @@ int main() {
 
 [← Назад к оглавлению](/)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Следующая тема: Наследование →](/ru/inheritance)
 
-[Следующая тема: FOO →](/ru/oop-encapsulation)
+[Предыдущая тема: Инкапсуляция →](/ru/encapsulation)
