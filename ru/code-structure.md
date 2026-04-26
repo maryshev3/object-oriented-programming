@@ -139,8 +139,8 @@ int main() {
 
 - **Облегчается командная работа** — разные разработчики могут вести свои подпроекты в отдельных папках, не мешая друг другу.
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующее задание: Кейс MathLib →](/ru/case-mathlib)
+[Следующее задание: Кейс MathLib →](/object-oriented-programming/ru/case-mathlib)
 
-[Предыдущая тема: Инкапсуляция →](/ru/encapsulation)
+[Предыдущая тема: Инкапсуляция →](/object-oriented-programming/ru/encapsulation)

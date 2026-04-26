@@ -70,8 +70,8 @@ lang: ru
 | Рабочий пример и тесты | 2 | Код компилируется, вывод соответствует ожидаемому поведению алгоритмов |
 | ***Итого*** | ***20*** | |
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующая тема: Обработка ошибок →](/ru/exceptions-processing)
+[Следующая тема: Обработка ошибок →](/object-oriented-programming/ru/exceptions-processing)
 
-[Предыдущая тема: Наследование →](/ru/inheritance)
+[Предыдущая тема: Наследование →](/object-oriented-programming/ru/inheritance)

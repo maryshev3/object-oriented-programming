@@ -35,8 +35,8 @@ lang: ru
 | Качество кода и оформление | 3 | Соблюдены требования к оформлению и структуре кода |
 | ***Итого*** | ***15*** | |
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующая тема: Наследование →](/ru/inheritance)
+[Следующая тема: Наследование →](/object-oriented-programming/ru/inheritance)
 
-[Предыдущая тема: Структура кода →](/ru/code-structure)
+[Предыдущая тема: Структура кода →](/object-oriented-programming/ru/code-structure)

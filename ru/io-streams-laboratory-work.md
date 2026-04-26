@@ -430,8 +430,8 @@ int main()
 
 - другая - для файлов.
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующее задание: Кейс EduTech →](/ru/case-edutech)
+[Следующее задание: Кейс EduTech →](/object-oriented-programming/ru/case-edutech)
 
-[Предыдущая тема: Ввод/вывод в C++. Библиотеки ввода/вывода →](/ru/io-streams)
+[Предыдущая тема: Ввод/вывод в C++. Библиотеки ввода/вывода →](/object-oriented-programming/ru/io-streams)

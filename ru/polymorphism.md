@@ -267,8 +267,8 @@ int main() {
 
 - ***базовый интерфейс должен быть минимальным и осмысленным***. Включайте в абстрактный класс только те методы, которые действительно являются общими для всех наследников. Не раздувайте интерфейс "на всякий случай".
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующее задание: Кейс ConsolePaint →](/ru/case-consolepaint)
+[Следующее задание: Кейс ConsolePaint →](/object-oriented-programming/ru/case-consolepaint)
 
-[Предыдущая тема: Обработка ошибок →](/ru/exceptions-processing)
+[Предыдущая тема: Обработка ошибок →](/object-oriented-programming/ru/exceptions-processing)

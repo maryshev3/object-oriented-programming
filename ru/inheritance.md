@@ -232,8 +232,8 @@ class Car {
 
 - ***Гибкость.*** Композиция позволяет легко заменить используемый объект на другой (например, подставить ***ElectricEngine*** вместо ***Engine***) во время выполнения, что невозможно при жёстком наследовании.
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующее задание: Кейс PowerElectric →](/ru/case-powerelectric)
+[Следующее задание: Кейс PowerElectric →](/object-oriented-programming/ru/case-powerelectric)
 
-[Предыдущее задание: Кейс MathLib →](/ru/case-mathlib)
+[Предыдущее задание: Кейс MathLib →](/object-oriented-programming/ru/case-mathlib)

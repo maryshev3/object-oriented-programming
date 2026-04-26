@@ -293,8 +293,8 @@ int main() {
 }
 ```
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующая тема: Полиморфизм →](/ru/polymorphism)
+[Следующая тема: Полиморфизм →](/object-oriented-programming/ru/polymorphism)
 
-[Предыдущее задание: Кейс PowerElectric →](/ru/case-powerelectric)
+[Предыдущее задание: Кейс PowerElectric →](/object-oriented-programming/ru/case-powerelectric)

@@ -214,6 +214,6 @@ WARNING: Class is not implemented now
   Составьте краткий отчёт, где показано выполнение каждого пункта. Пункты должны сопровождаться скриншотами.
 </div>
 
-[← Назад к оглавлению]({{'/' | relative_url}})
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующая тема: Введение в ООП →]({{'/ru/oop-intro' | relative_url}})
+[Следующая тема: Введение в ООП →](/object-oriented-programming/ru/oop-intro)

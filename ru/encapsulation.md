@@ -229,8 +229,8 @@ private:
 };
 ```
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующая тема: Структура кода →](/ru/code-structure)
+[Следующая тема: Структура кода →](/object-oriented-programming/ru/code-structure)
 
-[Предыдущее задание: Кейс CoffeeBucks →](/ru/case-coffeebucks)
+[Предыдущее задание: Кейс CoffeeBucks →](/object-oriented-programming/ru/case-coffeebucks)

@@ -39,8 +39,8 @@ lang: ru
 | Качество кода и оформление | 2 | Соблюдены стандарты оформления, осмысленные имена сущностей, логическая структура проекта |
 | ***Итого*** | ***20*** | |
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующее задание: Кейс HomeTech →](/ru/case-hometech)
+[Следующее задание: Кейс HomeTech →](/object-oriented-programming/ru/case-hometech)
 
-[Предыдущая тема: Полиморфизм →](/ru/polymorphism)
+[Предыдущая тема: Полиморфизм →](/object-oriented-programming/ru/polymorphism)

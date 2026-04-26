@@ -387,8 +387,8 @@ std::istream& operator>>(std::istream& is, Person& person) {
 }
 ```
 
-[← Назад к оглавлению](/)
+[← Назад к оглавлению](/object-oriented-programming/)
 
-[Следующая лабораторная работа: Ввод/вывод в C++. Библиотеки ввода/вывода →](/ru/io-streams-laboratory-work)
+[Следующая лабораторная работа: Ввод/вывод в C++. Библиотеки ввода/вывода →](/object-oriented-programming/ru/io-streams-laboratory-work)
 
-[Предыдущее задание: Кейс HomeTech →](/ru/case-hometech)
+[Предыдущее задание: Кейс HomeTech →](/object-oriented-programming/ru/case-hometech)
