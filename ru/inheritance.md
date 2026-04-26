@@ -236,4 +236,4 @@ class Car {
 
 [Следующая тема: Обработка ошибок →](/ru/exceptions-processing)
 
-[Предыдущая тема: Структура кода →](/ru/code-structure)
+[Предыдущее задание: Кейс MathLib →](/ru/case-mathlib)
