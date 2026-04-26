@@ -234,6 +234,6 @@ class Car {
 
 [← Назад к оглавлению](/)
 
-[Следующая тема: Обработка ошибок →](/ru/exceptions-processing)
+[Следующее задание: Кейс PowerElectric →](/ru/case-powerelectric)
 
 [Предыдущее задание: Кейс MathLib →](/ru/case-mathlib)

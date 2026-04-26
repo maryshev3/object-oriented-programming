@@ -297,4 +297,4 @@ int main() {
 
 [Следующая тема: Полиморфизм →](/ru/polymorphism)
 
-[Предыдущая тема: Наследование →](/ru/inheritance)
+[Предыдущее задание: Кейс PowerElectric →](/ru/case-powerelectric)
