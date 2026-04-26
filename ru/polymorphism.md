@@ -269,6 +269,6 @@ int main() {
 
 [← Назад к оглавлению](/)
 
-[Следующее задание: Кейс HomeTech →](/ru/case-hometech)
+[Следующее задание: Кейс ConsolePaint →](/ru/case-consolepaint)
 
 [Предыдущая тема: Обработка ошибок →](/ru/exceptions-processing)

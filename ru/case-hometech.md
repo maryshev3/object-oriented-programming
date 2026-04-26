@@ -49,4 +49,4 @@ lang: ru
 
 [Следующая тема: Ввод/вывод в C++. Библиотеки ввода/вывода →](/ru/io-streams)
 
-[Предыдущая тема: Полиморфизм →](/ru/polymorphism)
+[Предыдущее задание: Кейс ConsolePaint →](/ru/case-consolepaint)
