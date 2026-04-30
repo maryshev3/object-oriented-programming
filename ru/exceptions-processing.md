@@ -102,7 +102,7 @@ int main() {
     try {
         double result = divide(x, y);
         std::cout << "Результат: " << result << std::endl;
-    } catch (const std::invalid_argument& e) {
+    } catch (std::invalid_argument& e) {
         std::cerr << "Ошибка: " << e.what() << std::endl;
     }
     return 0;
@@ -122,12 +122,12 @@ int main() {
 ```cpp
 try {
     // некоторый код, бросающий различные исключения
-} catch (const std::out_of_range& e) {
+} catch (std::out_of_range& e) {
     // обработка выхода за границы
-} catch (const std::runtime_error& e) {
+} catch (std::runtime_error& e) {
     // обработка общих ошибок времени выполнения,
     // но НЕ out_of_range (он уже перехвачен выше)
-} catch (const std::exception& e) {
+} catch (std::exception& e) {
     // перехват всех остальных стандартных исключений
     // но НЕ out_of_range, runtime_error (они уже перехвачены выше)
 } catch (...) {
@@ -166,7 +166,7 @@ try {
 // Класс исключения для ошибки тайм-аута.
 class TimeoutException : public std::runtime_error {
     public:
-        TimeoutException(const std::string& msg) : std::runtime_error(msg) {}
+        TimeoutException(std::string& msg) : std::runtime_error(msg) {}
 };
 
 // Имитация подключения к базе данных.
@@ -221,9 +221,9 @@ int main() {
     try {
         std::string data = fetchData();
         std::cout << "Пользователь получил: " << data << std::endl;
-    } catch (const TimeoutException& e) {
+    } catch (TimeoutException& e) {
         std::cerr << "Ошибка (пользователю): " << e.what() << std::endl;
-    } catch (const std::exception& e) {
+    } catch (std::exception& e) {
         std::cerr << "Стандартная ошибка: " << e.what() << std::endl;
     } catch (...) {
         std::cerr << "Неизвестная ошибка." << std::endl;
