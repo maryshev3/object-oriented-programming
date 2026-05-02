@@ -2,6 +2,7 @@
 layout: default
 title: Структура кода
 lang: ru
+presentation: /assets/presentations/code-structure.pdf
 ---
 
 # Структура кода

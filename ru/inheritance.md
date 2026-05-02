@@ -2,6 +2,7 @@
 layout: default
 title: Наследование
 lang: ru
+presentation: /assets/presentations/inheritance.pdf
 ---
 
 # Наследование

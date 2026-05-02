@@ -2,6 +2,7 @@
 layout: default
 title: Обработка ошибок
 lang: ru
+presentation: /assets/presentations/exceptions-processing.pdf
 ---
 
 # Обработка ошибок

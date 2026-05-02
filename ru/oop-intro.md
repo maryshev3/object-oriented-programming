@@ -2,6 +2,7 @@
 layout: default
 title: Введение в ООП
 lang: ru
+presentation: /assets/presentations/oop-intro.pdf
 ---
 
 # Введение в ООП

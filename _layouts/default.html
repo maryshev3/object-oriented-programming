@@ -12,7 +12,34 @@
     {% include navigation.html %}
     
     <main class="content">
+      <!-- Проверяем, указана ли презентация в шапке md-файла -->
+      {% if page.presentation %}
+      
+      <!-- Блок с вкладками -->
+      <div class="tabs">
+        <button class="tab-btn active" data-target="lecture-text">📖 Текст лекции</button>
+        <button class="tab-btn" data-target="lecture-presentation">🖥 Презентация</button>
+      </div>
+
+      <!-- Контент вкладки с текстом -->
+      <div id="lecture-text" class="tab-content active">
         {{ content }}
+      </div>
+
+      <!-- Контент вкладки с презентацией -->
+      <div id="lecture-presentation" class="tab-content">
+        <div class="pdf-container">
+          <iframe src="{{ page.presentation | relative_url }}" frameborder="0"></iframe>
+          <p class="pdf-fallback">
+            Если презентация не отображается, <a href="{{ page.presentation | relative_url }}" target="_blank">скачайте её по этой ссылке</a>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Если презентации нет, выводим просто текст -->
+      {% else %}
+        {{ content }}
+      {% endif %}
     </main>
 
     <!-- Highlight.js JS -->
@@ -26,11 +53,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/git.min.js"></script>
 
     <script>
-        // Подсветка всех блоков кода
         document.addEventListener('DOMContentLoaded', function() {
+            // 1. Подсветка всех блоков кода
             hljs.highlightAll();
             
-            // Выделение активной ссылки в навигации
+            // 2. Выделение активной ссылки в навигации
             const currentPath = window.location.pathname;
             const links = document.querySelectorAll('.nav-list a');
             
@@ -38,6 +65,24 @@
                 if (link.getAttribute('href') === currentPath) {
                     link.classList.add('active');
                 }
+            });
+
+            // 3. Скрипт для переключения вкладок
+            const tabs = document.querySelectorAll('.tab-btn');
+            
+            tabs.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Убираем класс active у всех кнопок и контента
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                    
+                    // Добавляем active нажатой кнопке
+                    this.classList.add('active');
+                    
+                    // Показываем соответствующий контент
+                    const targetId = this.getAttribute('data-target');
+                    document.getElementById(targetId).classList.add('active');
+                });
             });
         });
     </script>

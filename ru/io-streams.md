@@ -2,6 +2,7 @@
 layout: default
 title: Ввод и вывод данных
 lang: ru
+presentation: /assets/presentations/io-streams.pdf
 ---
 
 # Ввод и вывод данных

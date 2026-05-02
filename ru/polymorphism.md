@@ -2,6 +2,7 @@
 layout: default
 title: Полиморфизм
 lang: ru
+presentation: /assets/presentations/polymorphism.pdf
 ---
 
 # Полиморфизм
