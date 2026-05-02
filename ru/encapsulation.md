@@ -2,6 +2,7 @@
 layout: default
 title: Инкапсуляция
 lang: ru
+presentation: /assets/presentations/encapsulation.pdf
 ---
 
 # Инкапсуляция
