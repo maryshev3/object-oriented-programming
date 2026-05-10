@@ -1,1 +1,4 @@
 .DS_Store
+Gemfile*
+_site/
+.ruby-version
